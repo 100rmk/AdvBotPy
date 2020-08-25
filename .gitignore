@@ -1,0 +1,12 @@
+dot_db.db
+**/.DS_Store
+.idea/
+**/__pycache__
+*.log
+*.pickle
+*.pid
+*.out
+.ipynb_checkpoints
+env/
+# Project exclude paths
+/venv/
