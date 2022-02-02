@@ -16,4 +16,4 @@ async def contact_handler(message: types.Message):
     insert.insert_new_user(message.contact.user_id, message.contact.first_name,
                            message.contact.last_name, user_phone_number)
 
-    await bot.send_message(message.chat.id, "Вы подписанны на обновления", reply_markup=ReplyKeyboardRemove())
+    await bot.send_message(message.chat.id, "Вы подписаны на обновления", reply_markup=ReplyKeyboardRemove())
