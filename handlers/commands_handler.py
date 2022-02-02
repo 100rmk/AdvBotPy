@@ -19,5 +19,5 @@ async def start_command(message: types.Message):
             KeyboardButton('Отправить свой контакт ☎️', request_contact=True))
 
         await bot.send_message(message.chat.id,
-                               "Вы не авторизрованны. Поделитесь своим номером для авторизации",
+                               "Вы не авторизрованы. Поделитесь своим номером для авторизации",
                                reply_markup=markup_request)
